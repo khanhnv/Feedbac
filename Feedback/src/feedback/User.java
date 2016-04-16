@@ -14,5 +14,5 @@ public class User {
     String password = "";
     String email = "";
     Login log = new Login();
-    String tmpPass = log.getPassword();
+    String tmpPass = log.getUserName();
 }
